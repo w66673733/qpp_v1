@@ -1,0 +1,326 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+APD_CHANNEL_NUM	.\aa\define.h	51;"	d
+APD_ISSUE_PERIOD	.\aa\define.h	60;"	d
+BLOCK_SECONDS	.\aa\define.h	18;"	d
+C9XXDataRecover	.\9XXDataRecover.h	/^class C9XXDataRecover : public CDataRecover$/;"	c
+CALI_BLOCK	.\aa\define.h	/^}CALI_BLOCK;$/;"	t	typeref:struct:__anon5
+CConstants	.\Constants.h	/^class CConstants$/;"	c
+CDataRecover	.\DataRecover.cpp	/^CDataRecover::CDataRecover()$/;"	f	class:CDataRecover
+CDataRecover	.\DataRecover.cpp	/^CDataRecover::CDataRecover(int rndLen)$/;"	f	class:CDataRecover
+CDataRecover	.\DataRecover.h	/^class CDataRecover$/;"	c
+CHANNELSCAN_CONFIG	.\aa\define.h	/^}CHANNELSCAN_CONFIG;$/;"	t	typeref:struct:__anon9
+CHANNEL_GPS	.\aa\define.h	22;"	d
+CHANNEL_OVERFLOW	.\aa\define.h	23;"	d
+CHANNEL_PPC	.\aa\define.h	24;"	d
+CHANNEL_SYN	.\aa\define.h	21;"	d
+CORRECT_CONFIG	.\aa\define.h	/^}CORRECT_CONFIG;$/;"	t	typeref:struct:__anon20
+CaliDump	.\aa\syn.cpp	/^void CaliDump(char *dir, CALI_BLOCK *pCaliBlock, int sec)$/;"	f
+CaliDump1	.\aa\syn.cpp	/^void CaliDump1(char *dir, char*name, CALI_BLOCK *pCaliBlock, int sec)$/;"	f
+Coincidence	.\aa\delay.cpp	/^int Coincidence(CALI_BLOCK *pRecvBlock, CALI_BLOCK *pSendBlock,char ch1, char ch2)$/;"	f
+Coincidence_TELE	.\aa\delay.cpp	/^int Coincidence_TELE(CALI_BLOCK_TELE *pRecvBlock, CALI_BLOCK_TELE *pSendBlock,char ch1, char ch2)$/;"	f
+CountNumPS	.\aa\input.cpp	/^void CountNumPS(char *writefilepath,int recv_numcnt[APD_CHANNEL_NUM],int send_numcnt[APD_CHANNEL_NUM])$/;"	f
+DATA_FORMAT_Q1	.\aa\define.h	11;"	d
+DATA_FORMAT_Q101	.\aa\define.h	15;"	d
+DATA_FORMAT_Q2	.\aa\define.h	12;"	d
+DATA_FORMAT_Q3	.\aa\define.h	13;"	d
+DATA_FORMAT_Q4	.\aa\define.h	14;"	d
+DATA_FORMAT_Q4_INNER_SYNC	.\aa\define.h	16;"	d
+DEFINE_H_	.\aa\define.h	7;"	d
+DELAY_SERACH_RANGE	.\aa\define.h	62;"	d
+DROPBIT_CONFIG	.\aa\define.h	/^}DROPBIT_CONFIG;$/;"	t	typeref:struct:__anon21
+DeSendFrame	.\aa\input.cpp	/^int DeSendFrame(char m_TestGetfilepath[100],char m_TestWritefilepath[100])$/;"	f
+DecoyKeyRate	.\aa\keyrate.cpp	/^double DecoyKeyRate(QUBITS_HEADER header, double f, int T, $/;"	f
+DoCorrect	.\aa\Single.cpp	/^ void DoCorrect(char *writefilepath,int seg_length)$/;"	f
+DoParityDiff	.\aa\Single.cpp	/^ void DoParityDiff(char *writefilepath,int seg_length)$/;"	f
+DoPrivacy	.\aa\Single.cpp	/^ void DoPrivacy(char *writefilepath,int total,int vacuum,int decoy,int signal,float error)$/;"	f
+DoPulsePosition	.\aa\Single.cpp	/^ void DoPulsePosition(char*writefilepath,int m_TxFormat,int m_RxFormat, __int64 m_flight_time,int channel_delay[4],int m_TxSecondFix)$/;"	f
+DoRawkeyAPD	.\aa\Single.cpp	/^ void DoRawkeyAPD(char *writefilepath)$/;"	f
+DropBits	.\aa\rpa.cpp	/^unsigned long DropBits(unsigned short *buffer, unsigned short *mask, unsigned long len)$/;"	f
+FINEFIX_CONFIG	.\aa\define.h	/^}FINEFIX_CONFIG;$/;"	t	typeref:struct:__anon8
+Find_TxsecentFix	.\aa\input.cpp	/^int Find_TxsecentFix(char *writefilepath)$/;"	f
+FineNUM	.\aa\q5data.cpp	/^double FineNUM[CHANNEL_NUM][280];$/;"	v
+FormWord	.\aa\rpa.cpp	/^unsigned short FormWord(unsigned short *buffer,$/;"	f
+GetBit	.\aa\rpa.cpp	/^unsigned short GetBit(unsigned short *buffer, unsigned long pos)$/;"	f
+GetPulsePositionFromCalibratedTime	.\aa\syn.cpp	/^int GetPulsePositionFromCalibratedTime(TDC_DATA *pCaliData, unsigned long *pPos)$/;"	f
+GetPulsePositionFromCalibratedTime64	.\aa\syn.cpp	/^int GetPulsePositionFromCalibratedTime64(TDC_DATA *pCaliData, __int64 *pPos)$/;"	f
+HHMGenerate	.\aa\rpa.cpp	/^void HHMGenerate(HHM *pH)$/;"	f
+HISTO_TIME_STEP	.\aa\define.h	63;"	d
+HistInfo	.\aa\define.h	/^}HistInfo;$/;"	t	typeref:struct:__anon4
+Info	.\aa\define.h	/^}Info;$/;"	t	typeref:struct:__anon1
+KEYRATE_INFO	.\aa\define.h	/^}KEYRATE_INFO;$/;"	t	typeref:struct:__anon7
+MASK_ADD_CARRY	.\aa\define.h	57;"	d
+MASK_ADD_CARRY_ENTANGLEMENT	.\aa\define.h	58;"	d
+MASK_DROP_GPS_AFTER	.\aa\define.h	56;"	d
+MASK_DROP_GPS_BEFORE	.\aa\define.h	55;"	d
+MASK_DROP_OUTORDER	.\aa\define.h	54;"	d
+MASK_TIME_RECOVER	.\aa\define.h	53;"	d
+MAX_APD_NUM	.\aa\define.h	47;"	d
+MAX_BLOCK_SECONDS	.\aa\define.h	19;"	d
+MAX_I64	.\aa\define.h	27;"	d
+MAX_SYN_NUM	.\aa\define.h	46;"	d
+MAX_TDC_NUM	.\aa\define.h	49;"	d
+MaskBit	.\aa\rpa.cpp	/^void MaskBit(unsigned short *mask,unsigned long posw, unsigned short posb,unsigned short num)$/;"	f
+MaskBits	.\aa\rpa.cpp	/^void MaskBits(unsigned short *pMask, int seg_length, int rawkey_num, unsigned short *pParityDiff, int invalid_seg_cnt, unsigned long *pInvalidSegs)$/;"	f
+MaskHammingBits	.\aa\rpa.cpp	/^void MaskHammingBits(unsigned short *mask, unsigned short seglen, unsigned long segnum, unsigned short hnum)$/;"	f
+MaskParityBits	.\aa\rpa.cpp	/^void MaskParityBits(unsigned short *mask,unsigned short seglen, unsigned long segcnt)$/;"	f
+MaskSegBits	.\aa\rpa.cpp	/^void MaskSegBits(unsigned short *mask, unsigned short seglen, unsigned long segnum)$/;"	f
+Order	.\aa\q5data.cpp	/^unsigned short Order = 0x0132;$/;"	v
+PARITYDIFF_CONFIG	.\aa\define.h	/^}PARITYDIFF_CONFIG;$/;"	t	typeref:struct:__anon18
+PARITY_CONFIG	.\aa\define.h	/^}PARITY_CONFIG;$/;"	t	typeref:struct:__anon17
+PRIVACY_CONFIG	.\aa\define.h	/^}PRIVACY_CONFIG;$/;"	t	typeref:struct:__anon22
+PS_PER_100US	.\aa\define.h	37;"	d
+PS_PER_SEC	.\aa\define.h	35;"	d
+PS_PER_US	.\aa\define.h	36;"	d
+PULSEDATA_CONFIG	.\aa\define.h	/^}PULSEDATA_CONFIG;$/;"	t	typeref:struct:__anon14
+PULSEPOSITION_CONFIG	.\aa\define.h	/^}PULSEPOSITION_CONFIG;$/;"	t	typeref:struct:__anon13
+Parity	.\aa\rpa.cpp	/^unsigned short Parity(unsigned short *buffer,$/;"	f
+Permutation	.\aa\rpa.cpp	/^void Permutation(unsigned short *buffer,unsigned long len)$/;"	f
+PrivacyAmplify	.\aa\rpa.cpp	/^int PrivacyAmplify(unsigned short *key,unsigned short *D, unsigned short *G,  int secureFactor, int len)$/;"	f
+Q1	.\aa\define.h	/^	double Q1;$/;"	m	struct:__anon7
+Q4Data	.\aa\q4data.cpp	/^int Q4Data(char *q4file, char *tdcfile)$/;"	f
+Q4GetChannelNum	.\aa\q4data.cpp	/^unsigned char Q4GetChannelNum(char *pdata)$/;"	f
+Q4GetCoarse	.\aa\q4data.cpp	/^int Q4GetCoarse(char *pdata)$/;"	f
+Q4GetFine	.\aa\q4data.cpp	/^unsigned char Q4GetFine(char *pdata)$/;"	f
+Q4ReadRndNumber	.\aa\q4data.cpp	/^int Q4ReadRndNumber(char *filename, char *pRnd)$/;"	f
+Q4TDCTime	.\aa\q4data.cpp	/^__int64 Q4TDCTime(char *pdata, unsigned char min_fine, unsigned char max_fine, int coarse_step)$/;"	f
+Q6Data	.\aa\q6data.cpp	/^int Q6Data(char *q4file, char *tdcfile)$/;"	f
+Q6GetChannelNum	.\aa\q6data.cpp	/^unsigned char Q6GetChannelNum(char *pdata)$/;"	f
+Q6GetCoarse	.\aa\q6data.cpp	/^int Q6GetCoarse(char *pdata)$/;"	f
+Q6GetFine	.\aa\q6data.cpp	/^unsigned char Q6GetFine(char *pdata)$/;"	f
+Q6ReadRndNumber	.\aa\q6data.cpp	/^int Q6ReadRndNumber(char *filename,char *pRnd)$/;"	f
+Q6TDCTime	.\aa\q6data.cpp	/^__int64 Q6TDCTime(char *pdata, unsigned char min_fine, unsigned char max_fine, int coarse_step)$/;"	f
+QB_DECOY	.\aa\define.h	66;"	d
+QB_SIGNAL	.\aa\define.h	67;"	d
+QB_SIGNAL_PLUS	.\aa\define.h	68;"	d
+QB_VACUUM	.\aa\define.h	65;"	d
+QRandomInit	.\aa\rpa.cpp	/^void QRandomInit(QKD_RNG *pRng, unsigned long seed)        \/\/ initialization$/;"	f
+QSHENQIData	.\aa\q5data.cpp	/^int QSHENQIData(char *q2file, char *tdcfile)$/;"	f
+QSHENQIGetChannelNum	.\aa\q5data.cpp	/^unsigned char QSHENQIGetChannelNum(char *pdata)$/;"	f
+QSHENQIGetCoarse	.\aa\q5data.cpp	/^int QSHENQIGetCoarse(char *pdata)$/;"	f
+QSHENQIGetFine	.\aa\q5data.cpp	/^int QSHENQIGetFine(char *pdata)$/;"	f
+QSHENQITDCTime	.\aa\q5data.cpp	/^__int64 QSHENQITDCTime(char *pdata, unsigned char min_fine, unsigned char max_fine, int coarse_step)$/;"	f
+QUBITS_HEADER	.\aa\define.h	/^}QUBITS_HEADER;$/;"	t	typeref:struct:__anon6
+Q_mu	.\aa\define.h	/^	double Q_mu;$/;"	m	struct:__anon7
+R	.\aa\define.h	/^	double R;$/;"	m	struct:__anon7
+RAWKEYAPD_CONFIG	.\aa\define.h	/^}RAWKEYAPD_CONFIG;$/;"	t	typeref:struct:__anon15
+RAWKEYFORM_CONFIG	.\aa\define.h	/^}RAWKEYFORM_CONFIG;$/;"	t	typeref:struct:__anon10
+RAWKEYRND_CONFIG	.\aa\define.h	/^}RAWKEYRND_CONFIG;$/;"	t	typeref:struct:__anon16
+RELAYEDKEYRATE_CONFIG	.\aa\define.h	/^}RELAYEDKEYRATE_CONFIG;$/;"	t	typeref:struct:__anon11
+RND_CYCLE_LENGTH	.\aa\define.h	61;"	d
+RPACorrect	.\aa\rpa.cpp	/^int RPACorrect(unsigned short *pRawkey, int seg_length, int rawkey_num,unsigned short *pParityDiff, $/;"	f
+RPADropBits	.\aa\rpa.cpp	/^int RPADropBits(unsigned short *pRawkey, unsigned short *pMask, int seg_length, int rawkey_num, $/;"	f
+RPAKeyRatio	.\aa\rpa.cpp	/^double RPAKeyRatio(double m,unsigned long n0, unsigned long nd,unsigned long ns,$/;"	f
+RPAParityDiff	.\aa\rpa.cpp	/^int RPAParityDiff(unsigned short *pRawkey, int seg_length, int rawkey_num, $/;"	f
+RPA_CONFIG	.\aa\define.h	/^}RPA_CONFIG;$/;"	t	typeref:struct:__anon12
+RawData	.\aa\input.cpp	/^int RawData(char *dir, char* filename, int format, int dump)$/;"	f
+RawDataProcess	.\aa\input.cpp	/^int RawDataProcess(char *dir, int Tx_format, int Rx_format, int dump)$/;"	f
+RawRate	.\aa\define.h	/^	int RawRate;$/;"	m	struct:__anon1
+RawSum	.\aa\define.h	/^	int RawSum;$/;"	m	struct:__anon1
+ReadRndNumber	.\aa\input.cpp	/^int ReadRndNumber(char *input_dir, int Tx_format, char *pRnd)$/;"	f
+ReadTDCBlock	.\aa\input.cpp	/^void ReadTDCBlock(TDC_DATA *pData, TDC_BLOCK *pTDCBlock, int sec)$/;"	f
+ReadTDCBlock_TELE	.\aa\input.cpp	/^void ReadTDCBlock_TELE(TDC_DATA *pData, TDC_BLOCK_TELE *pTDCBlock, int sec)$/;"	f
+ReadTDCFile	.\aa\input.cpp	/^int ReadTDCFile(char *writefilepath, TDC_DATA *pSendData, TDC_DATA *pRecvData)$/;"	f
+ReadTDCFileCoin	.\aa\input.cpp	/^int ReadTDCFileCoin(char *dir,TDC_DATACoin *TDCData,TDC_DATA *pSendData, TDC_DATA *pRecvData)$/;"	f
+ReadTDCFileCoin_532	.\aa\input.cpp	/^int ReadTDCFileCoin_532(char *dir,TDC_DATACoin *TDCData,TDC_DATA *pSendData, TDC_DATA *pRecvData)$/;"	f
+Read_JF_recv_TDC	.\aa\input.cpp	/^int Read_JF_recv_TDC(char *dir, char* name,TDC_DATA *pSendData)$/;"	f
+Read_JF_send_TDC2Two	.\aa\input.cpp	/^int Read_JF_send_TDC2Two(char *dir, char* name,TDC_DATA *pSendData,TDC_DATA *pSendData1)$/;"	f
+RevertBit	.\aa\rpa.cpp	/^void RevertBit(unsigned short *buffer,unsigned long posw, unsigned short posb)$/;"	f
+Rx_fine_fix	.\aa\define.h	/^	FINEFIX_CONFIG Rx_fine_fix[APD_CHANNEL_NUM+2];$/;"	m	struct:__anon10
+Rx_fine_fix	.\aa\define.h	/^	FINEFIX_CONFIG Rx_fine_fix[APD_CHANNEL_NUM+2];$/;"	m	struct:__anon13
+Rx_fine_fix	.\aa\define.h	/^	FINEFIX_CONFIG Rx_fine_fix[APD_CHANNEL_NUM+2];$/;"	m	struct:__anon9
+Rx_format	.\aa\define.h	/^	int Rx_format;$/;"	m	struct:__anon10
+Rx_format	.\aa\define.h	/^	int Rx_format;$/;"	m	struct:__anon13
+Rx_format	.\aa\define.h	/^	int Rx_format;$/;"	m	struct:__anon9
+SIGNAL_DROP_NUM	.\aa\define.h	71;"	d
+SIGNAL_SAMPLE_SIZE	.\aa\define.h	70;"	d
+SORT_RANGE	.\aa\input.cpp	64;"	d	file:
+SYNDROME_CONFIG	.\aa\define.h	/^}SYNDROME_CONFIG;$/;"	t	typeref:struct:__anon19
+SYN_PERIOD_INNER	.\aa\define.h	39;"	d
+SearchAccurateFrequencyRatio	.\aa\syn.cpp	/^double SearchAccurateFrequencyRatio(double freq_ratio, int channel, TDC_BLOCK *pSendBlock, TDC_BLOCK *pRecvBlock)$/;"	f
+SearchChannelDelay	.\aa\delay.cpp	/^void SearchChannelDelay(CALI_BLOCK *pCaliBlock, char *pRnd, __int64 *pChannelDelay)$/;"	f
+SearchChannelDelayByVacuum	.\aa\delay.cpp	/^void SearchChannelDelayByVacuum(CALI_BLOCK *pCaliBlock, __int64 flight_time, int Tx_Sec_Fix, char *pRnd, __int64 *pChannelDelay)$/;"	f
+SearchCoinDelay	.\aa\delay.cpp	/^int SearchCoinDelay(CALI_BLOCK *pCaliBlock, CALI_BLOCK *pSendBlock, __int64 pChannelDelay[APD_CHANNEL_NUM][APD_CHANNEL_NUM],$/;"	f
+SearchCoinDelay_TELE	.\aa\delay.cpp	/^int SearchCoinDelay_TELE(CALI_BLOCK_TELE *pCaliBlock, CALI_BLOCK_TELE *pSendBlock, __int64 pChannelDelay[TELE_APDCOINNUM][APD_CHANNEL_NUM],$/;"	f
+SearchValidFrequencyRatio	.\aa\syn.cpp	/^double SearchValidFrequencyRatio(double freq_ratio, TDC_BLOCK *pSendBlock, TDC_BLOCK *pRecvBlock, int *pChannel)$/;"	f
+SendSynGen	.\aa\input.cpp	/^int SendSynGen(char m_TestWritefilepath[100])$/;"	f
+SignalErr	.\aa\define.h	/^	double SignalErr;$/;"	m	struct:__anon1
+Sum16Bit	.\aa\rpa.cpp	/^unsigned short Sum16Bit(unsigned short data)$/;"	f
+SwapBit	.\aa\rpa.cpp	/^void SwapBit(unsigned short *buffer, unsigned long posa,unsigned long posb)$/;"	f
+SynAnalyze	.\aa\syn.cpp	/^void SynAnalyze(TDC_BLOCK *pRecvBlock, TDC_BLOCK *pSendBlock, int *pSynMap)$/;"	f
+SynAnalyze1	.\aa\syn.cpp	/^void SynAnalyze1(TDC_BLOCK *pRecvBlock, TDC_BLOCK *pSendBlock, int *pSynMap)$/;"	f
+SynAnalyze_TELE	.\aa\syn.cpp	/^void SynAnalyze_TELE(TDC_BLOCK_TELE *pRecvBlock, TDC_BLOCK_TELE *pSendBlock, int *pSynMap)$/;"	f
+SynDump	.\aa\syn.cpp	/^void SynDump(char *dir, TDC_BLOCK *pSendBlock, TDC_BLOCK *pRecvBlock, int sec)$/;"	f
+SynMap	.\aa\syn.cpp	/^void SynMap(TDC_BLOCK *pRecvBlock, TDC_BLOCK *pSendBlock, int *pSynMap, __int64 flight_time, int *pSyn_idx, __int64 *pLastSynRecv)$/;"	f
+SynMapDump	.\aa\syn.cpp	/^void SynMapDump(char *dir, TDC_BLOCK *pSendBlock, TDC_BLOCK *pRecvBlock, int *pSynMap, int sec)$/;"	f
+SynMap_JF_850	.\aa\syn.cpp	/^void SynMap_JF_850(TDC_BLOCK *pRecvBlock, TDC_BLOCK *pSendBlock, int *pSynMap, __int64 flight_time, int *pSyn_idx, __int64 *pLastSynRecv)$/;"	f
+SynMap_TELE	.\aa\syn.cpp	/^void SynMap_TELE(TDC_BLOCK_TELE *pRecvBlock, TDC_BLOCK_TELE *pSendBlock, int *pSynMap, __int64 flight_time, int *pSyn_idx, __int64 *pLastSynRecv)$/;"	f
+SyncJitter	.\aa\define.h	/^	int SyncJitter;$/;"	m	struct:__anon1
+Syncnt	.\aa\define.h	/^	int Syncnt;$/;"	m	struct:__anon1
+Syndrome	.\aa\rpa.cpp	/^unsigned short Syndrome(unsigned short *buffer,	unsigned short seglen,unsigned long segnum,unsigned short hidx,$/;"	f
+TDCAnalyze	.\aa\syn.cpp	/^void TDCAnalyze(TDC_BLOCK *pBlock)$/;"	f
+TDCData2Time	.\aa\input.cpp	/^int TDCData2Time(char *tdcfile, char *timefile, int data_format)$/;"	f
+TDC_BLOCK	.\aa\define.h	/^}TDC_BLOCK;$/;"	t	typeref:struct:__anon3
+TDC_DATA	.\aa\define.h	/^}TDC_DATA;$/;"	t	typeref:struct:__anon2
+TDC_Num	.\aa\input.cpp	/^void TDC_Num(char m_TestWritefilepath[100],int Tx_format, int Rx_format)$/;"	f
+TDC_OV	.\aa\define.h	30;"	d
+TimeAscend	.\aa\input.cpp	/^int TimeAscend(__int64 time1, __int64 time2)$/;"	f
+TimeCalibrateWithFrequencyRatio	.\aa\syn.cpp	/^void TimeCalibrateWithFrequencyRatio(double freq_ratio, int channel, TDC_BLOCK *pRecvBlock, CALI_BLOCK *pCaliBlock)$/;"	f
+TimeCalibrateWithFrequencyRatioSecure	.\aa\delay.cpp	/^void TimeCalibrateWithFrequencyRatioSecure(TDC_BLOCK *pRecvBlock,double freq_ratio,__int64 *pChannelDelay,CALI_BLOCK *pCaliBlock,TDC_DATA *pCaliData)$/;"	f
+TimeCalibrateWithSyncLight	.\aa\syn.cpp	/^void TimeCalibrateWithSyncLight(TDC_BLOCK *pRecvBlock, TDC_BLOCK *pSendBlock, int *pSyncMap, CALI_BLOCK *pCaliBlock)$/;"	f
+TimeCalibrateWithSyncLightSecure	.\aa\syn.cpp	/^void TimeCalibrateWithSyncLightSecure(TDC_BLOCK *pRecvBlock, TDC_BLOCK *pSendBlock, int *pSyncMap, int pChannelDelay[4], int gate_width, TDC_DATA *pCaliData)$/;"	f
+TimeCalibrateWithSyncLight_TELE	.\aa\syn.cpp	/^void TimeCalibrateWithSyncLight_TELE(TDC_BLOCK_TELE *pRecvBlock, TDC_BLOCK_TELE *pSendBlock, int *pSyncMap, CALI_BLOCK_TELE *pCaliBlock)$/;"	f
+TimeDump	.\aa\input.cpp	/^void TimeDump(char *datafile, char *outputfile)$/;"	f
+TimeFix	.\aa\input.cpp	/^void TimeFix(char *datafile, char *outfile, unsigned char mask)$/;"	f
+TimeSort	.\aa\input.cpp	/^void TimeSort(int cnt, __int64 *pTime, unsigned char *pChannel)$/;"	f
+TimeSortSub	.\aa\input.cpp	/^void TimeSortSub(int start,int end, __int64 *pTime, unsigned char *pChannel)$/;"	f
+Tx_Sec_Fix	.\aa\define.h	/^	int Tx_Sec_Fix;$/;"	m	struct:__anon10
+Tx_Sec_Fix	.\aa\define.h	/^	int Tx_Sec_Fix;$/;"	m	struct:__anon13
+Tx_Sec_Fix	.\aa\define.h	/^	int Tx_Sec_Fix;$/;"	m	struct:__anon9
+Tx_fine_fix	.\aa\define.h	/^	FINEFIX_CONFIG Tx_fine_fix[APD_CHANNEL_NUM+2];$/;"	m	struct:__anon10
+Tx_fine_fix	.\aa\define.h	/^	FINEFIX_CONFIG Tx_fine_fix[APD_CHANNEL_NUM+2];$/;"	m	struct:__anon13
+Tx_fine_fix	.\aa\define.h	/^	FINEFIX_CONFIG Tx_fine_fix[APD_CHANNEL_NUM+2];$/;"	m	struct:__anon9
+Tx_format	.\aa\define.h	/^	int Tx_format;$/;"	m	struct:__anon10
+Tx_format	.\aa\define.h	/^	int Tx_format;$/;"	m	struct:__anon13
+Tx_format	.\aa\define.h	/^	int Tx_format;$/;"	m	struct:__anon14
+Tx_format	.\aa\define.h	/^	int Tx_format;$/;"	m	struct:__anon9
+apd_cnt	.\aa\define.h	/^	int apd_cnt[APD_CHANNEL_NUM];$/;"	m	struct:__anon3
+apd_power	.\aa\define.h	/^	int apd_power; \/\/total apd pulses$/;"	m	struct:__anon4
+apd_slot	.\aa\define.h	/^	int apd_slot; \/\/apd pulse issued in which 100ps slot.$/;"	m	struct:__anon4
+apd_time	.\aa\define.h	/^	__int64	apd_time[APD_CHANNEL_NUM][MAX_APD_NUM*MAX_BLOCK_SECONDS];$/;"	m	struct:__anon3
+channel	.\aa\define.h	/^	unsigned char channel[MAX_TDC_NUM];$/;"	m	struct:__anon2
+channel_delay	.\aa\define.h	/^	int channel_delay[APD_CHANNEL_NUM];$/;"	m	struct:__anon10
+channel_delay	.\aa\define.h	/^	int channel_delay[APD_CHANNEL_NUM];$/;"	m	struct:__anon13
+chn_A	.\Constants.h	/^    static unsigned char chn_A = 0x02;$/;"	m	class:CConstants
+chn_D	.\Constants.h	/^    static unsigned char chn_D = 0x03;$/;"	m	class:CConstants
+chn_GPS	.\Constants.h	/^    static unsigned char chn_GPS = 0x05;$/;"	m	class:CConstants
+chn_H	.\Constants.h	/^    static unsigned char chn_H = 0x0;$/;"	m	class:CConstants
+chn_OF	.\Constants.h	/^    static unsigned char chn_OF = 0x06; \/\/channel overflow $/;"	m	class:CConstants
+chn_PPC	.\Constants.h	/^    static unsigned char chn_PPC = 0x07;$/;"	m	class:CConstants
+chn_SYN	.\Constants.h	/^    static unsigned char chn_SYN = 0x04;$/;"	m	class:CConstants
+chn_V	.\Constants.h	/^    static unsigned char chn_V = 0x01;$/;"	m	class:CConstants
+cnt	.\aa\define.h	/^	int cnt;$/;"	m	struct:__anon2
+cnt	.\aa\define.h	/^	int cnt[APD_CHANNEL_NUM];$/;"	m	struct:__anon5
+cnt_decoy	.\aa\define.h	/^	double  cnt_vacuum,cnt_signal,cnt_decoy;$/;"	m	struct:__anon6
+cnt_decoy_detected	.\aa\define.h	/^	unsigned long  cnt_vacuum_detected,cnt_signal_detected,cnt_decoy_detected;$/;"	m	struct:__anon6
+cnt_decoy_matched	.\aa\define.h	/^	unsigned long  cnt_signal_matched,cnt_decoy_matched;$/;"	m	struct:__anon6
+cnt_decoy_measured	.\aa\define.h	/^	unsigned long  cnt_signal_measured,cnt_decoy_measured;$/;"	m	struct:__anon6
+cnt_detail	.\aa\define.h	/^	unsigned long cnt_detail[16];$/;"	m	struct:__anon6
+cnt_signal	.\aa\define.h	/^	double  cnt_vacuum,cnt_signal,cnt_decoy;$/;"	m	struct:__anon6
+cnt_signal_detected	.\aa\define.h	/^	unsigned long  cnt_vacuum_detected,cnt_signal_detected,cnt_decoy_detected;$/;"	m	struct:__anon6
+cnt_signal_matched	.\aa\define.h	/^	unsigned long  cnt_signal_matched,cnt_decoy_matched;$/;"	m	struct:__anon6
+cnt_signal_measured	.\aa\define.h	/^	unsigned long  cnt_signal_measured,cnt_decoy_measured;$/;"	m	struct:__anon6
+cnt_signal_sampled	.\aa\define.h	/^	unsigned long  cnt_signal_sampled;$/;"	m	struct:__anon6
+cnt_total	.\aa\define.h	/^	double  cnt_total; $/;"	m	struct:__anon6
+cnt_vacuum	.\aa\define.h	/^	double  cnt_vacuum,cnt_signal,cnt_decoy;$/;"	m	struct:__anon6
+cnt_vacuum_detected	.\aa\define.h	/^	unsigned long  cnt_vacuum_detected,cnt_signal_detected,cnt_decoy_detected;$/;"	m	struct:__anon6
+coarse_step	.\aa\define.h	/^	int coarse_step;$/;"	m	struct:__anon8
+dark_cnt	.\aa\define.h	/^	int dark_cnt; \/\/detector dark counts in 1 second.$/;"	m	struct:__anon4
+data2Time	.\9XXDataRecover.cpp	/^long long C9XXDataRecover::data2Time(char* pdata, unsigned char minFine, unsigned char maxFine, int coarseStep)$/;"	f	class:C9XXDataRecover
+data2Time	.\DataRecover.cpp	/^long long CDataRecover::data2Time(char* pdata, unsigned char minFine, unsigned char maxFine, int coarseStep)$/;"	f	class:CDataRecover
+dataRecover	.\DataRecover.cpp	/^int CDataRecover::dataRecover(char* dataFilePath, char* timeFilePath)$/;"	f	class:CDataRecover
+decoy	.\aa\define.h	/^	int decoy;$/;"	m	struct:__anon22
+decoy_match_detail	.\aa\define.h	/^	unsigned long  decoy_match_detail[4],decoy_measure_detail[4];$/;"	m	struct:__anon6
+decoy_measure_detail	.\aa\define.h	/^	unsigned long  decoy_match_detail[4],decoy_measure_detail[4];$/;"	m	struct:__anon6
+delay_file	.\aa\define.h	/^	char delay_file[100];$/;"	m	struct:__anon10
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon10
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon11
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon12
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon13
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon14
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon15
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon16
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon17
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon18
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon19
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon20
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon21
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon22
+dir	.\aa\define.h	/^	char dir[100];$/;"	m	struct:__anon9
+do_cali_dump	.\aa\define.h	/^	int do_cali_dump;$/;"	m	struct:__anon9
+do_delay_search	.\aa\define.h	/^	int do_delay_search;$/;"	m	struct:__anon9
+do_histo_plot	.\aa\define.h	/^	int do_histo_plot;$/;"	m	struct:__anon9
+do_syn_dump	.\aa\define.h	/^	int do_syn_dump;$/;"	m	struct:__anon9
+do_synmap_dump	.\aa\define.h	/^	int do_synmap_dump;$/;"	m	struct:__anon9
+do_time_dump	.\aa\define.h	/^	int do_time_dump;$/;"	m	struct:__anon9
+e1	.\aa\define.h	/^	double e1;$/;"	m	struct:__anon7
+e_mu	.\aa\define.h	/^	double e_mu;$/;"	m	struct:__anon7
+error	.\aa\define.h	/^	double error;$/;"	m	struct:__anon22
+findSyn	.\aa\input.cpp	/^bool findSyn(__int64 PreSynTime[6], int x ,__int64 *synTime)$/;"	f
+flight_time	.\aa\define.h	/^	__int64 flight_time;$/;"	m	struct:__anon10
+flight_time	.\aa\define.h	/^	__int64 flight_time;$/;"	m	struct:__anon13
+flight_time	.\aa\define.h	/^	__int64 flight_time;$/;"	m	struct:__anon9
+g_iDarkCnt	.\aa\q5data.cpp	/^  int g_iDarkCnt;$/;"	v
+gate_width	.\aa\define.h	/^	int gate_width;$/;"	m	struct:__anon10
+gate_width	.\aa\define.h	/^	int gate_width;$/;"	m	struct:__anon13
+gate_width	.\aa\define.h	/^	int gate_width;$/;"	m	struct:__anon4
+getChannelNum	.\9XXDataRecover.cpp	/^unsigned char C9XXDataRecover::getChannelNum(char* pdata)$/;"	f	class:C9XXDataRecover
+getChannelNum	.\DataRecover.cpp	/^unsigned char CDataRecover::getChannelNum(char* pdata)$/;"	f	class:CDataRecover
+getCoarse	.\9XXDataRecover.cpp	/^unsigned int C9XXDataRecover::getCoarse(char* pdata)$/;"	f	class:C9XXDataRecover
+getCoarse	.\DataRecover.cpp	/^unsigned int CDataRecover::getCoarse(char* pdata)$/;"	f	class:CDataRecover
+getFine	.\9XXDataRecover.cpp	/^unsigned int C9XXDataRecover::getFine(char* pdata)$/;"	f	class:C9XXDataRecover
+getFine	.\DataRecover.cpp	/^unsigned int CDataRecover::getFine(char* pdata)$/;"	f	class:CDataRecover
+gps_end	.\aa\define.h	/^	__int64 gps_start,gps_end;$/;"	m	struct:__anon3
+gps_start	.\aa\define.h	/^	__int64 gps_start,gps_end;$/;"	m	struct:__anon3
+header	.\aa\define.h	/^	QUBITS_HEADER header;$/;"	m	struct:__anon12
+hinfo	.\aa\define.h	/^	HistInfo hinfo[APD_CHANNEL_NUM];$/;"	m	struct:__anon5
+hist	.\aa\define.h	/^	int hist[100];$/;"	m	struct:__anon4
+hist_long	.\aa\define.h	/^	int hist_long[100];$/;"	m	struct:__anon4
+invalid_filename	.\aa\define.h	/^	char invalid_filename[100];$/;"	m	struct:__anon20
+invalid_filename	.\aa\define.h	/^	char invalid_filename[100];$/;"	m	struct:__anon21
+link_file_a	.\aa\define.h	/^	char link_file_a[100];$/;"	m	struct:__anon11
+link_file_b	.\aa\define.h	/^	char link_file_b[100];$/;"	m	struct:__anon11
+m_i_rndLen	.\DataRecover.h	/^        unsigned int m_i_rndLen;$/;"	m	class:CDataRecover
+max	.\aa\define.h	/^	int max;$/;"	m	struct:__anon4
+max_fine	.\aa\define.h	/^	unsigned char max_fine;$/;"	m	struct:__anon8
+max_second	.\aa\define.h	/^	int max_second;$/;"	m	struct:__anon9
+min	.\aa\define.h	/^	int min;$/;"	m	struct:__anon4
+min_fine	.\aa\define.h	/^	unsigned char min_fine;$/;"	m	struct:__anon8
+mu	.\aa\define.h	/^	double mu;$/;"	m	struct:__anon4
+parity_filename	.\aa\define.h	/^	char parity_filename[100];$/;"	m	struct:__anon17
+parity_filename	.\aa\define.h	/^	char parity_filename[100];$/;"	m	struct:__anon18
+paritydiff_filename	.\aa\define.h	/^	char paritydiff_filename[100];$/;"	m	struct:__anon18
+paritydiff_filename	.\aa\define.h	/^	char paritydiff_filename[100];$/;"	m	struct:__anon19
+paritydiff_filename	.\aa\define.h	/^	char paritydiff_filename[100];$/;"	m	struct:__anon20
+paritydiff_filename	.\aa\define.h	/^	char paritydiff_filename[100];$/;"	m	struct:__anon21
+rawkey_filename	.\aa\define.h	/^	char rawkey_filename[100];$/;"	m	struct:__anon17
+rawkey_filename	.\aa\define.h	/^	char rawkey_filename[100];$/;"	m	struct:__anon18
+rawkey_filename	.\aa\define.h	/^	char rawkey_filename[100];$/;"	m	struct:__anon19
+rawkey_filename	.\aa\define.h	/^	char rawkey_filename[100];$/;"	m	struct:__anon20
+rawkey_filename	.\aa\define.h	/^	char rawkey_filename[100];$/;"	m	struct:__anon21
+rawkey_filename	.\aa\define.h	/^	char rawkey_filename[100];$/;"	m	struct:__anon22
+rawkeyout_filename	.\aa\define.h	/^	char rawkeyout_filename[100];$/;"	m	struct:__anon20
+rawkeyout_filename	.\aa\define.h	/^	char rawkeyout_filename[100];$/;"	m	struct:__anon21
+rawkeyperm_filename	.\aa\define.h	/^	char rawkeyperm_filename[100];$/;"	m	struct:__anon17
+rawkeyperm_filename	.\aa\define.h	/^	char rawkeyperm_filename[100];$/;"	m	struct:__anon18
+readRnd	.\DataRecover.cpp	/^int CDataRecover::readRnd(char* rndFilePaht, char* pRnd)$/;"	f	class:CDataRecover
+securekey_filename	.\aa\define.h	/^	char securekey_filename[100];$/;"	m	struct:__anon22
+seg_length	.\aa\define.h	/^	int seg_length;$/;"	m	struct:__anon17
+seg_length	.\aa\define.h	/^	int seg_length;$/;"	m	struct:__anon18
+seg_length	.\aa\define.h	/^	int seg_length;$/;"	m	struct:__anon19
+seg_length	.\aa\define.h	/^	int seg_length;$/;"	m	struct:__anon20
+seg_length	.\aa\define.h	/^	int seg_length;$/;"	m	struct:__anon21
+seq	.\aa\define.h	/^	int seq[100];$/;"	m	struct:__anon4
+sigma	.\aa\define.h	/^	double sigma;$/;"	m	struct:__anon4
+signal	.\aa\define.h	/^	int signal;$/;"	m	struct:__anon22
+signal_match_detail	.\aa\define.h	/^	unsigned long  signal_match_detail[4],signal_measure_detail[4];$/;"	m	struct:__anon6
+signal_measure_detail	.\aa\define.h	/^	unsigned long  signal_match_detail[4],signal_measure_detail[4];$/;"	m	struct:__anon6
+syn	.\aa\define.h	/^	__int64 syn[MAX_SYN_NUM*MAX_BLOCK_SECONDS];$/;"	m	struct:__anon3
+syn_cnt	.\aa\define.h	/^	int syn_cnt;$/;"	m	struct:__anon3
+syn_diff_avg	.\aa\define.h	/^	double syn_diff_avg;$/;"	m	struct:__anon3
+syn_diff_dev	.\aa\define.h	/^	double syn_diff_dev;$/;"	m	struct:__anon3
+syn_jitter	.\aa\define.h	/^	double syn_jitter;$/;"	m	struct:__anon3
+syn_period_avg	.\aa\define.h	/^	double syn_period_avg;$/;"	m	struct:__anon3
+syndrome_filename	.\aa\define.h	/^	char syndrome_filename[100];$/;"	m	struct:__anon19
+syndrome_filename	.\aa\define.h	/^	char syndrome_filename[100];$/;"	m	struct:__anon20
+synmap_cnt	.\aa\define.h	/^	int synmap_cnt;$/;"	m	struct:__anon3
+tdc_OV	.\Constants.h	/^    static unsigned long long tdc_OV = 167772160000I64;$/;"	m	class:CConstants
+time	.\aa\define.h	/^	__int64 time[APD_CHANNEL_NUM][MAX_APD_NUM*MAX_BLOCK_SECONDS];$/;"	m	struct:__anon5
+time	.\aa\define.h	/^	__int64 time[MAX_TDC_NUM];$/;"	m	struct:__anon2
+total	.\aa\define.h	/^	double total;$/;"	m	struct:__anon22
+total_power	.\aa\define.h	/^	int total_power; \/\/total counts.$/;"	m	struct:__anon4
+vacuum	.\aa\define.h	/^	int vacuum;$/;"	m	struct:__anon22
